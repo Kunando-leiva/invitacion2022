@@ -163,6 +163,7 @@
 h2 {
   font-family: "ITC Serif Gothic", Lato;
   font-size: 27px;
+  color: #fff;
 }
 
 .btn {
@@ -224,6 +225,15 @@ h2 {
 
 .imgconcu {
   width: 80%;
+}
+
+audio {
+  padding-left: 7%;
+}
+
+.audiotex {
+  color: #fff;
+  text-align: center;
 }
 
 .h1cont {
