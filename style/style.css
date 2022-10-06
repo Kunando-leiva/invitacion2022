@@ -1,35 +1,5 @@
 @media (min-width: 320px) and (max-width: 425px) {
   @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-  .line-1 {
-    position: relative;
-    width: 10em;
-    margin: 20%;
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(90%);
-  }
-  /* Animation */
-  .anim-typewriter {
-    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
-  }
-  @keyframes typewriter {
-    from {
-      width: 0;
-    }
-    to {
-      width: 24em;
-    }
-  }
-  @keyframes blinkTextCursor {
-    from {
-      border-right-color: rgba(255, 255, 255, 0.75);
-    }
-    to {
-      border-right-color: transparent;
-    }
-  }
   /* Animation properties */
   .star {
     animation: star 10s ease-out infinite;
@@ -171,7 +141,8 @@
   }
 }
 .preparate {
-  font-size: 25px;
+  font-family: "ITC Serif Gothic", Lato;
+  font-size: 27px;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -179,21 +150,24 @@
   width: 100%;
   margin-top: 150%;
   margin-bottom: 20%;
+  padding: 15px;
 }
 
 .contenedorvol {
-  background-color: aqua;
+  color: #fff;
   height: 20%;
   text-align: center;
   padding: 3%;
 }
 
 h2 {
+  font-family: "ITC Serif Gothic", Lato;
   font-size: 27px;
 }
 
 .btn {
   background-color: #fff;
+  font-family: "ITC Serif Gothic", Lato;
 }
 
 .condicionescaja {
@@ -205,34 +179,126 @@ h2 {
   flex-direction: column;
 }
 
-.vestimenta {
-  border: solid 2px #000;
-}
-
-.bebidas {
-  border: solid 2px #000;
-}
-
-.bailar {
-  border: solid 2px #000;
-}
-
-.cocurso {
-  border: solid 2px #000;
-}
-
-.imgbot {
-  width: 20%;
-}
-
-.border-dark {
-  font-size: 25px;
-  margin: 10px;
+.condiciones {
+  font-family: "ITC Serif Gothic", Lato;
+  font-size: 30px;
+  margin: 15px;
   padding: 10px;
 }
 
+.vestimenta {
+  font-family: "ITC Serif Gothic", Lato;
+  border: solid 2px #000;
+  padding: 15px;
+}
+
+.bebidas {
+  font-family: "ITC Serif Gothic", Lato;
+  border: solid 2px #000;
+  padding: 15px;
+}
+
+.bailar {
+  font-family: "ITC Serif Gothic", Lato;
+  border: solid 2px #000;
+  padding: 15px;
+}
+
+.cocurso {
+  font-family: "ITC Serif Gothic", Lato;
+  border: solid 2px #000;
+  padding: 15px;
+}
+
+.imgves {
+  width: 85%;
+}
+
+.imgbebi {
+  width: 60%;
+}
+
 .imgmusi {
-  width: 50%;
+  width: 80%;
+}
+
+.imgconcu {
+  width: 80%;
+}
+
+.h1cont {
+  font-family: "ITC Serif Gothic", Lato;
+  font-size: 30px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.h2cont {
+  font-family: "ITC Serif Gothic", Lato;
+  color: #fff;
+  font-size: 26px;
+  padding: 15px;
+  text-align: center;
+}
+
+.whatsa {
+  background-color: rgb(26, 211, 26);
+  padding: 15px;
+  border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-left: 13%;
+  margin-bottom: 10%;
+}
+
+.h1info {
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.h2info {
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.h3info {
+  padding-top: 25%;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.h4info {
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.gif {
+  width: 70%;
+  margin-left: 14%;
+}
+
+iframe {
+  background-color: #000000;
+  border-radius: 20px;
+  margin: 28px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  height: 30rem;
+  width: 90%;
+  margin-bottom: 5%;
+  margin-left: 5%;
 }
 
 .menu-header {
@@ -272,6 +338,44 @@ h2 {
 }
 .menu-ul li .nav-link:hover {
   font-size: 22px;
+}
+
+.footer {
+  background-color: #36363a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cont-foot {
+  display: flex;
+  justify-content: end;
+  align-content: center;
+}
+.cont-foot .footertex {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "ITC Serif Gothic", Lato;
+  margin-left: 10%;
+}
+.cont-foot .tex-footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 15px;
+  width: 100%;
+  border-radius: 80px;
+  background-color: rgb(136, 12, 12);
+  padding: 5%;
+  font-size: 22px;
+  font-family: "ITC Serif Gothic", Lato;
 }
 
 /*# sourceMappingURL=style.css.map */

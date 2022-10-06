@@ -1,0 +1,40 @@
+.footer{
+    background-color:$colorgris;
+    @include flexbox(center,center);
+    text-align: center;
+}
+
+.cont-foot {
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    
+    .footertex{
+        width: 80%;
+        @include flexbox(center,center);
+        flex-direction: column;
+        font-size: 18px;
+        color: $colorblanco;
+        text-decoration: none;
+        font-family: "ITC Serif Gothic", Lato;
+        margin-left: 10%;
+    }
+
+    
+    .tex-footer{
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 15px;
+        width: 100%;
+        border-radius: 80px;
+        background-color: rgb(136, 12, 12);
+        padding: 5%;
+        font-size: 22px;
+        font-family: "ITC Serif Gothic", Lato;
+        
+        
+    }
+
+}
