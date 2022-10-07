@@ -140,102 +140,338 @@
     font-size: 7px;
   }
 }
-.preparate {
-  font-family: "ITC Serif Gothic", Lato;
-  font-size: 27px;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  margin-top: 150%;
-  margin-bottom: 20%;
-  padding: 15px;
+@media (min-width: 320px) and (max-width: 425px) {
+  .preparate {
+    font-family: "ITC Serif Gothic", Lato;
+    font-size: 27px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 150%;
+    margin-bottom: 20%;
+    padding: 15px;
+  }
 }
-
-.contenedorvol {
-  color: #fff;
-  height: 20%;
-  text-align: center;
-  padding: 3%;
+@media (min-width: 320px) and (max-width: 425px) {
+  .contenedorvol {
+    color: #fff;
+    height: 20%;
+    text-align: center;
+    padding: 3%;
+  }
 }
-
-h2 {
-  font-family: "ITC Serif Gothic", Lato;
-  font-size: 27px;
-  color: #fff;
+@media (min-width: 320px) and (max-width: 425px) {
+  h2 {
+    font-family: "ITC Serif Gothic", Lato;
+    font-size: 27px;
+    color: #fff;
+  }
 }
-
-.btn {
-  background-color: #fff;
-  font-family: "ITC Serif Gothic", Lato;
+@media (min-width: 320px) and (max-width: 425px) {
+  .btn {
+    background-color: #fff;
+    font-family: "ITC Serif Gothic", Lato;
+  }
 }
-
-.condicionescaja {
-  background-color: burlywood;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
+@media (min-width: 320px) and (max-width: 425px) {
+  .condicionescaja {
+    background-color: burlywood;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
 }
-
-.condiciones {
-  font-family: "ITC Serif Gothic", Lato;
-  font-size: 30px;
-  margin: 15px;
-  padding: 10px;
+@media (min-width: 320px) and (max-width: 425px) {
+  .condiciones {
+    font-family: "ITC Serif Gothic", Lato;
+    font-size: 30px;
+    margin: 15px;
+    padding: 10px;
+  }
 }
-
-.vestimenta {
-  font-family: "ITC Serif Gothic", Lato;
-  border: solid 2px #000;
-  padding: 15px;
+@media (min-width: 320px) and (max-width: 425px) {
+  .vestimenta {
+    font-family: "ITC Serif Gothic", Lato;
+    border: solid 2px #000;
+    padding: 15px;
+  }
 }
-
-.bebidas {
-  font-family: "ITC Serif Gothic", Lato;
-  border: solid 2px #000;
-  padding: 15px;
+@media (min-width: 320px) and (max-width: 425px) {
+  .bebidas {
+    font-family: "ITC Serif Gothic", Lato;
+    border: solid 2px #000;
+    padding: 15px;
+  }
 }
-
-.bailar {
-  font-family: "ITC Serif Gothic", Lato;
-  border: solid 2px #000;
-  padding: 15px;
+@media (min-width: 320px) and (max-width: 425px) {
+  .bailar {
+    font-family: "ITC Serif Gothic", Lato;
+    border: solid 2px #000;
+    padding: 15px;
+  }
 }
-
-.cocurso {
-  font-family: "ITC Serif Gothic", Lato;
-  border: solid 2px #000;
-  padding: 15px;
+@media (min-width: 320px) and (max-width: 425px) {
+  .cocurso {
+    font-family: "ITC Serif Gothic", Lato;
+    border: solid 2px #000;
+    padding: 15px;
+  }
 }
-
-.imgves {
-  width: 85%;
+@media (min-width: 320px) and (max-width: 425px) {
+  .imgves {
+    width: 85%;
+  }
 }
-
-.imgbebi {
-  width: 60%;
+@media (min-width: 320px) and (max-width: 425px) {
+  .imgbebi {
+    width: 60%;
+  }
 }
-
-.imgmusi {
-  width: 80%;
+@media (min-width: 320px) and (max-width: 425px) {
+  .imgmusi {
+    width: 80%;
+  }
 }
-
-.imgconcu {
-  width: 80%;
+@media (min-width: 320px) and (max-width: 425px) {
+  .imgconcu {
+    width: 80%;
+  }
 }
-
-audio {
-  width: 100%;
+@media (min-width: 320px) and (max-width: 425px) {
+  audio {
+    width: 100%;
+  }
 }
-
-.audiotex {
-  color: #fff;
-  text-align: center;
+@media (min-width: 320px) and (max-width: 425px) {
+  .audiotex {
+    color: #fff;
+    text-align: center;
+  }
 }
-
+@media (min-width: 426px) and (max-width: 768px) {
+  @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+  /* Animation properties */
+  .star {
+    animation: star 10s ease-out infinite;
+  }
+  .wars {
+    animation: wars 10s ease-out infinite;
+  }
+  .byline span {
+    animation: spin-letters 10s linear infinite;
+  }
+  .byline {
+    animation: move-byline 10s linear infinite;
+  }
+  /* Keyframes */
+  @keyframes star {
+    0% {
+      opacity: 0;
+      transform: scale(1.5) translateY(-0.1em);
+    }
+    20% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: translateZ(-1000em);
+    }
+  }
+  @keyframes wars {
+    0% {
+      opacity: 0;
+      transform: scale(1.5) translateY(-0.1em);
+    }
+    20% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: translateZ(-1000em);
+    }
+  }
+  @keyframes spin-letters {
+    0% {
+      opacity: 0;
+      transform: rotateY(90deg);
+    }
+    30% {
+      opacity: 1;
+    }
+    70%, 86% {
+      transform: rotateY(0);
+      opacity: 1;
+    }
+    95%, 100% {
+      opacity: 0;
+    }
+  }
+  @keyframes move-byline {
+    0% {
+      transform: translateZ(5em);
+    }
+    100% {
+      transform: translateZ(0);
+    }
+  }
+  /* Make the 3D work on the container */
+  .titulohome {
+    margin-bottom: 120%;
+  }
+  .starwars-demo {
+    perspective: 200px;
+    transform-style: preserve-3d;
+  }
+  /* General styles and layout */
+  body {
+    background: #000 url(//cssanimation.rocks/demo/starwars/images/bg.jpg);
+  }
+  .starwars-demo {
+    height: 17em;
+    left: 50%;
+    position: absolute;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    width: 34em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .byline span {
+    display: inline-block;
+  }
+  .star, .wars, .byline {
+    position: absolute;
+    font-family: "ITC Serif Gothic", Lato;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 80%;
+  }
+  .star {
+    color: #fff;
+    top: -2em;
+    font-size: 35px;
+    text-align: center;
+  }
+  .wars {
+    color: #fff;
+    bottom: -10em;
+    font-size: 30px;
+    text-align: center;
+  }
+  .byline {
+    color: #fff;
+    font-family: "ITC Serif Gothic", Lato;
+    font-size: 15px;
+    top: 10em;
+    letter-spacing: 0.4em;
+    text-align: center;
+    text-transform: uppercase;
+    top: 29%;
+  }
+  /*** Media queries for adjusting to different screen sizes ***/
+  .preparate {
+    font-family: "ITC Serif Gothic", Lato;
+    font-size: 27px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 150%;
+    margin-bottom: 20%;
+    padding: 15px;
+  }
+  .contenedorvol {
+    color: #fff;
+    height: 20%;
+    text-align: center;
+    padding: 3%;
+  }
+  h2 {
+    font-family: "ITC Serif Gothic", Lato;
+    font-size: 27px;
+    color: #fff;
+  }
+  .btn {
+    background-color: #fff;
+    font-family: "ITC Serif Gothic", Lato;
+  }
+  .condicionescaja {
+    background-color: burlywood;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .condiciones {
+    font-family: "ITC Serif Gothic", Lato;
+    font-size: 30px;
+    margin: 15px;
+    padding: 10px;
+  }
+  .vestimenta {
+    font-family: "ITC Serif Gothic", Lato;
+    border: solid 2px #000;
+    padding: 15px;
+    height: 10%;
+    width: 85%;
+  }
+  .bebidas {
+    font-family: "ITC Serif Gothic", Lato;
+    border: solid 2px #000;
+    padding: 15px;
+    height: 10%;
+    width: 85%;
+  }
+  .bailar {
+    font-family: "ITC Serif Gothic", Lato;
+    border: solid 2px #000;
+    padding: 15px;
+    height: 10%;
+    width: 85%;
+  }
+  .cocurso {
+    font-family: "ITC Serif Gothic", Lato;
+    border: solid 2px #000;
+    padding: 15px;
+    height: 10%;
+    width: 85%;
+  }
+  .imgves {
+    width: 85%;
+  }
+  .imgbebi {
+    width: 60%;
+  }
+  .imgmusi {
+    width: 80%;
+  }
+  .imgconcu {
+    width: 80%;
+  }
+  audio {
+    width: 100%;
+  }
+  .audiotex {
+    color: #fff;
+    text-align: center;
+  }
+}
 .h1cont {
   font-family: "ITC Serif Gothic", Lato;
   font-size: 30px;
