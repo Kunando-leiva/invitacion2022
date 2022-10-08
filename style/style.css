@@ -39,7 +39,7 @@
     20% {
       opacity: 1;
     }
-    90% {
+    50% {
       opacity: 1;
       transform: scale(1);
     }
@@ -56,11 +56,11 @@
     30% {
       opacity: 1;
     }
-    70%, 86% {
+    50% {
       transform: rotateY(0);
       opacity: 1;
     }
-    95%, 100% {
+    100% {
       opacity: 0;
     }
   }
@@ -101,7 +101,6 @@
   .star, .wars, .byline {
     position: absolute;
     font-family: "ITC Serif Gothic", Lato;
-    font-size: 20px;
     text-align: center;
     text-transform: uppercase;
     top: 80%;
