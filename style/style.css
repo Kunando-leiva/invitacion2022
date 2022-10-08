@@ -241,14 +241,28 @@
   }
 }
 @media (min-width: 320px) and (max-width: 425px) {
+  .cajaaudio {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
   audio {
     width: 100%;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
   }
 }
 @media (min-width: 320px) and (max-width: 425px) {
   .audiotex {
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 }
 @media (min-width: 426px) and (max-width: 768px) {
@@ -469,6 +483,25 @@
   .audiotex {
     color: #fff;
     text-align: center;
+  }
+  .cajaaudio {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  audio {
+    width: 100%;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+  }
+  .audiotex {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 }
 .h1cont {

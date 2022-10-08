@@ -204,6 +204,7 @@ h2{
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  
 }
 
 .condiciones{
@@ -253,13 +254,37 @@ h2{
 width: 80%;
 }
 
-audio{
+
+
+
+.cajaaudio{
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 5%;
   
-  width: 100%;
+  
 }
+audio{
+  width: 100%;
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+
+
+ 
+}
+
+
+
+
+
 .audiotex{
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 
 }
 
@@ -527,6 +552,37 @@ audio{
 .audiotex{
   color: #fff;
   text-align: center;
+
+}
+
+.cajaaudio{
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+  
+}
+audio{
+  width: 100%;
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+
+
+ 
+}
+
+
+
+
+
+.audiotex{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 
 }
 }
